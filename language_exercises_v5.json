@@ -1,0 +1,663 @@
+{
+  "title": "Language Tenses",
+  "exercises": [
+    {
+      "case": "In clauses beginning with \"con tal de que\" (provided that) or \"a condición de que\" (on condition that).",
+      "language": "Spanish",
+      "pronoun": "Yo",
+      "sentence": "Con tal de que haya bebido suficiente jugo, podré recuperarme del resfriado.",
+      "tense": "Futuro compuesto de subjuntivo",
+      "verb": "beber",
+      "answer_suggestions": [
+        "bebes",
+        "hubiera bebido",
+        "bebió",
+        "hubiese bebido",
+        "bebe",
+        "hayas bebido",
+        "bebí",
+        "bebiste",
+        "bebo"
+      ],
+      "answer": "haya bebido",
+      "masked_sentence": "Con tal de que _ suficiente jugo, podré recuperarme del resfriado."
+    },
+    {
+      "case": "In clauses beginning with \"con tal de que\" (provided that) or \"a condición de que\" (on condition that).",
+      "language": "Spanish",
+      "pronoun": "Yo",
+      "sentence": "Con tal de que haya bebido suficiente agua, podré correr el maratón mañana.",
+      "tense": "Futuro compuesto de subjuntivo",
+      "verb": "beber",
+      "answer_suggestions": [
+        "bebió",
+        "bebe",
+        "hubiera bebido",
+        "hayas bebido",
+        "bebo",
+        "bebí",
+        "hubiese bebido",
+        "bebiste",
+        "bebes"
+      ],
+      "answer": "haya bebido",
+      "masked_sentence": "Con tal de que _ suficiente agua, podré correr el maratón mañana."
+    },
+    {
+      "case": "In clauses beginning with \"con tal de que\" (provided that) or \"a condición de que\" (on condition that).",
+      "language": "Spanish",
+      "pronoun": "Yo",
+      "sentence": "A condición de que haya trabajado toda la noche, podré entregar el proyecto a tiempo.",
+      "tense": "Futuro compuesto de subjuntivo",
+      "verb": "trabajar",
+      "answer_suggestions": [
+        "hubiera trabajado",
+        "hayas estado trabajando",
+        "hubiese trabajado",
+        "trabajo",
+        "hayas trabajado",
+        "trabajas",
+        "trabajó",
+        "trabajaste",
+        "trabajé",
+        "trabaja"
+      ],
+      "answer": "haya trabajado",
+      "masked_sentence": "A condición de que _ toda la noche, podré entregar el proyecto a tiempo."
+    },
+    {
+      "case": "In clauses beginning with \"con tal de que\" (provided that) or \"a condición de que\" (on condition that).",
+      "language": "Spanish",
+      "pronoun": "Yo",
+      "sentence": "A condición de que haya bebido un café, podré estar despierto durante la reunión.",
+      "tense": "Futuro compuesto de subjuntivo",
+      "verb": "beber",
+      "answer_suggestions": [
+        "bebo",
+        "bebes",
+        "hayas bebido",
+        "bebí",
+        "bebe",
+        "hubiese bebido",
+        "bebiste",
+        "hubiera bebido",
+        "bebió"
+      ],
+      "answer": "haya bebido",
+      "masked_sentence": "A condición de que _ un café, podré estar despierto durante la reunión."
+    },
+    {
+      "case": "In clauses beginning with \"con tal de que\" (provided that) or \"a condición de que\" (on condition that).",
+      "language": "Spanish",
+      "pronoun": "Yo",
+      "sentence": "Con tal de que haya trabajado duro, aprobaré el examen.",
+      "tense": "Futuro compuesto de subjuntivo",
+      "verb": "trabajar",
+      "answer_suggestions": [
+        "hubiese trabajado",
+        "trabajas",
+        "hubiera trabajado",
+        "trabajé",
+        "hayas estado trabajando",
+        "trabajó",
+        "hayas trabajado",
+        "trabajaste",
+        "trabaja",
+        "trabajo"
+      ],
+      "answer": "haya trabajado",
+      "masked_sentence": "Con tal de que _ duro, aprobaré el examen."
+    },
+    {
+      "case": "In clauses beginning with \"con tal de que\" (provided that) or \"a condición de que\" (on condition that).",
+      "language": "Spanish",
+      "pronoun": "Yo",
+      "sentence": "Con tal de que haya trabajado en equipo, ganaremos el premio.",
+      "tense": "Futuro compuesto de subjuntivo",
+      "verb": "trabajar",
+      "answer_suggestions": [
+        "trabaja",
+        "trabajo",
+        "hubiera trabajado",
+        "hayas trabajado",
+        "trabajé",
+        "hubiese trabajado",
+        "trabajaste",
+        "hayas estado trabajando",
+        "trabajas",
+        "trabajó"
+      ],
+      "answer": "haya trabajado",
+      "masked_sentence": "Con tal de que _ en equipo, ganaremos el premio."
+    },
+    {
+      "case": "In clauses beginning with \"con tal de que\" (provided that) or \"a condición de que\" (on condition that).",
+      "language": "Spanish",
+      "pronoun": "Yo",
+      "sentence": "Con tal de que haya estudiado, yo habré escuchado la conferencia completa.",
+      "tense": "Futuro compuesto de subjuntivo",
+      "verb": "escuchar",
+      "answer_suggestions": [
+        "hubiera escuchado",
+        "escuchas",
+        "escucho",
+        "escuché",
+        "hubiese escuchado",
+        "escuchaste",
+        "escucha",
+        "haya escuchado",
+        "escuchó",
+        "hayas escuchado",
+        "hayas estado escuchando"
+      ],
+      "answer": "habré escuchado",
+      "masked_sentence": "Con tal de que haya estudiado, yo _ la conferencia completa."
+    },
+    {
+      "case": "To describe a background action in the past that sets the scene for another action.",
+      "language": "Portuguese",
+      "pronoun": "eu",
+      "sentence": "Eu falava com meu amigo quando ele me deu a notícia.",
+      "tense": "Pretérito Imperfeito",
+      "verb": "falar",
+      "answer_suggestions": [
+        "falaria",
+        "falavas",
+        "falarías",
+        "falo",
+        "fosse falar",
+        "falas",
+        "fala"
+      ],
+      "answer": "falava",
+      "masked_sentence": "Eu _ com meu amigo quando ele me deu a notícia."
+    },
+    {
+      "case": "To describe a background action in the past that sets the scene for another action.",
+      "language": "Portuguese",
+      "pronoun": "eu",
+      "sentence": "Eu era muito feliz quando morei em Paris.",
+      "tense": "Pretérito Imperfeito",
+      "verb": "ser",
+      "answer_suggestions": [
+        "fosse",
+        "seria",
+        "fosses",
+        "sou",
+        "serias",
+        "és",
+        "é",
+        "eras"
+      ],
+      "answer": "era",
+      "masked_sentence": "Eu _ muito feliz quando morei em Paris."
+    },
+    {
+      "case": "To describe a background action in the past that sets the scene for another action.",
+      "language": "Portuguese",
+      "pronoun": "eu",
+      "sentence": "Eu era muito jovem quando meu pai me ensinou a dirigir.",
+      "tense": "Pretérito Imperfeito",
+      "verb": "ser",
+      "answer_suggestions": [
+        "serias",
+        "seria",
+        "és",
+        "eras",
+        "fosse",
+        "é",
+        "fosses",
+        "sou"
+      ],
+      "answer": "era",
+      "masked_sentence": "Eu _ muito jovem quando meu pai me ensinou a dirigir."
+    },
+    {
+      "case": "To describe a background action in the past that sets the scene for another action.",
+      "language": "Portuguese",
+      "pronoun": "eu",
+      "sentence": "Eu ouvia o som do mar enquanto eu caminhava pela praia.",
+      "tense": "Pretérito Imperfeito",
+      "verb": "ouvir",
+      "answer_suggestions": [
+        "ouvira",
+        "ias ouvir",
+        "ias ouvido",
+        "ouve",
+        "ouves",
+        "ouço",
+        "ouviria",
+        "ouvisse",
+        "ouvias"
+      ],
+      "answer": "ouvia",
+      "masked_sentence": "Eu _ o som do mar enquanto eu caminhava pela praia."
+    },
+    {
+      "case": "To describe a background action in the past that sets the scene for another action.",
+      "language": "Portuguese",
+      "pronoun": "eu",
+      "sentence": "Eu falava sobre meus planos para o futuro quando meu pai me interrompeu.",
+      "tense": "Pretérito Imperfeito",
+      "verb": "falar",
+      "answer_suggestions": [
+        "falas",
+        "fala",
+        "falo",
+        "fosse falar",
+        "falarías",
+        "falavas",
+        "falaria"
+      ],
+      "answer": "falava",
+      "masked_sentence": "Eu _ sobre meus planos para o futuro quando meu pai me interrompeu."
+    },
+    {
+      "case": "To describe a background action in the past that sets the scene for another action.",
+      "language": "Portuguese",
+      "pronoun": "eu",
+      "sentence": "Eu ouvia música enquanto fazia meus trabalhos de casa.",
+      "tense": "Pretérito Imperfeito",
+      "verb": "ouvir",
+      "answer_suggestions": [
+        "ouve",
+        "ias ouvido",
+        "ouves",
+        "ouvira",
+        "ouvias",
+        "ouço",
+        "ias ouvir",
+        "ouviria",
+        "ouvisse"
+      ],
+      "answer": "ouvia",
+      "masked_sentence": "Eu _ música enquanto fazia meus trabalhos de casa."
+    },
+    {
+      "case": "To describe a background action in the past that sets the scene for another action.",
+      "language": "Portuguese",
+      "pronoun": "eu",
+      "sentence": "Eu falava ao telefone quando a porta bateu.",
+      "tense": "Pretérito Imperfeito",
+      "verb": "falar",
+      "answer_suggestions": [
+        "falas",
+        "fosse falar",
+        "falo",
+        "falavas",
+        "falaria",
+        "falarías",
+        "fala"
+      ],
+      "answer": "falava",
+      "masked_sentence": "Eu _ ao telefone quando a porta bateu."
+    },
+    {
+      "case": "To describe a background action in the past that sets the scene for another action.",
+      "language": "Portuguese",
+      "pronoun": "eu",
+      "sentence": "Eu era estudante quando conheci meu melhor amigo.",
+      "tense": "Pretérito Imperfeito",
+      "verb": "ser",
+      "answer_suggestions": [
+        "é",
+        "fosse",
+        "seria",
+        "sou",
+        "serias",
+        "fosses",
+        "eras",
+        "és"
+      ],
+      "answer": "era",
+      "masked_sentence": "Eu _ estudante quando conheci meu melhor amigo."
+    },
+    {
+      "case": "To describe a background action in the past that sets the scene for another action.",
+      "language": "Portuguese",
+      "pronoun": "eu",
+      "sentence": "Eu ouvia o professor explicar a lição enquanto eu fazia anotações.",
+      "tense": "Pretérito Imperfeito",
+      "verb": "ouvir",
+      "answer_suggestions": [
+        "ouvira",
+        "ouviria",
+        "ouvias",
+        "ouvisse",
+        "ias ouvido",
+        "ouço",
+        "ouve",
+        "ias ouvir",
+        "ouves"
+      ],
+      "answer": "ouvia",
+      "masked_sentence": "Eu _ o professor explicar a lição enquanto eu fazia anotações."
+    },
+    {
+      "case": "Expressing doubt, uncertainty, or possibility about a situation or event.",
+      "language": "French",
+      "pronoun": "je",
+      "sentence": "Il est probable que je fasse face à des difficultés.",
+      "tense": "Subjonctif présent",
+      "verb": "faire",
+      "answer_suggestions": [
+        "aura fait",
+        "aurai fait",
+        "aurait fait",
+        "aurais fait",
+        "auras fait",
+        "fasses",
+        "fît",
+        "eusse fait"
+      ],
+      "answer": "fasse",
+      "masked_sentence": "Il est probable que je _ face à des difficultés."
+    },
+    {
+      "case": "Expressing doubt, uncertainty, or possibility about a situation or event.",
+      "language": "French",
+      "pronoun": "je",
+      "sentence": "Il est possible que je prenne une décision aujourd'hui.",
+      "tense": "Subjonctif présent",
+      "verb": "prendre",
+      "answer_suggestions": [
+        "aurais pris",
+        "aurai pris",
+        "aurais prise",
+        "aurai prise",
+        "aura pris",
+        "auras pris",
+        "aurai prises",
+        "aurait pris",
+        "aura prissons",
+        "prennes",
+        "aurait prise",
+        "aura prises",
+        "aura prise"
+      ],
+      "answer": "prenne",
+      "masked_sentence": "Il est possible que je _ une décision aujourd'hui."
+    },
+    {
+      "case": "Expressing doubt, uncertainty, or possibility about a situation or event.",
+      "language": "French",
+      "pronoun": "je",
+      "sentence": "Il est possible que je puisse trouver une solution.",
+      "tense": "Subjonctif présent",
+      "verb": "pouvoir",
+      "answer_suggestions": [
+        "eusse pu",
+        "aurait pu",
+        "eut pu",
+        "aura pu",
+        "aurais pu",
+        "auras pu",
+        "aurai pu",
+        "puisses"
+      ],
+      "answer": "puisse",
+      "masked_sentence": "Il est possible que je _ trouver une solution."
+    },
+    {
+      "case": "Expressing doubt, uncertainty, or possibility about a situation or event.",
+      "language": "French",
+      "pronoun": "je",
+      "sentence": "Il est possible que je puisse finir à temps.",
+      "tense": "Subjonctif présent",
+      "verb": "pouvoir",
+      "answer_suggestions": [
+        "eusse pu",
+        "aurais pu",
+        "puisses",
+        "eut pu",
+        "auras pu",
+        "aurai pu",
+        "aurait pu",
+        "aura pu"
+      ],
+      "answer": "puisse",
+      "masked_sentence": "Il est possible que je _ finir à temps."
+    },
+    {
+      "case": "Expressing doubt, uncertainty, or possibility about a situation or event.",
+      "language": "French",
+      "pronoun": "je",
+      "sentence": "Il se peut que je fasse une découverte importante.",
+      "tense": "Subjonctif présent",
+      "verb": "faire",
+      "answer_suggestions": [
+        "auras fait",
+        "fît",
+        "aurais fait",
+        "aurait fait",
+        "fasses",
+        "aura fait",
+        "aurai fait",
+        "eusse fait"
+      ],
+      "answer": "fasse",
+      "masked_sentence": "Il se peut que je _ une découverte importante."
+    },
+    {
+      "case": "Expressing doubt, uncertainty, or possibility about a situation or event.",
+      "language": "French",
+      "pronoun": "je",
+      "sentence": "Il est probable que je puisse résoudre ce problème.",
+      "tense": "Subjonctif présent",
+      "verb": "pouvoir",
+      "answer_suggestions": [
+        "eusse pu",
+        "puisses",
+        "aurai pu",
+        "aurait pu",
+        "aurais pu",
+        "eut pu",
+        "aura pu",
+        "auras pu"
+      ],
+      "answer": "puisse",
+      "masked_sentence": "Il est probable que je _ résoudre ce problème."
+    },
+    {
+      "case": "Expressing doubt, uncertainty, or possibility about a situation or event.",
+      "language": "French",
+      "pronoun": "je",
+      "sentence": "Il se peut que je prenne des vacances cet été.",
+      "tense": "Subjonctif présent",
+      "verb": "prendre",
+      "answer_suggestions": [
+        "aurais pris",
+        "aura prissons",
+        "aurait prise",
+        "aurait pris",
+        "auras pris",
+        "aura prise",
+        "prennes",
+        "aurais prise",
+        "aurai prises",
+        "aura pris",
+        "aurai pris",
+        "aurai prise",
+        "aura prises"
+      ],
+      "answer": "prenne",
+      "masked_sentence": "Il se peut que je _ des vacances cet été."
+    },
+    {
+      "case": "Expressing doubt, uncertainty, or possibility about a situation or event.",
+      "language": "French",
+      "pronoun": "je",
+      "sentence": "Il est possible que je fasse une erreur.",
+      "tense": "Subjonctif présent",
+      "verb": "faire",
+      "answer_suggestions": [
+        "auras fait",
+        "fasses",
+        "eusse fait",
+        "fît",
+        "aurait fait",
+        "aurais fait",
+        "aurai fait",
+        "aura fait"
+      ],
+      "answer": "fasse",
+      "masked_sentence": "Il est possible que je _ une erreur."
+    },
+    {
+      "case": "Expressing doubt, uncertainty, or possibility about a situation or event.",
+      "language": "French",
+      "pronoun": "je",
+      "sentence": "Il est probable que je prenne un café avant de partir.",
+      "tense": "Subjonctif présent",
+      "verb": "prendre",
+      "answer_suggestions": [
+        "aura prissons",
+        "aura prise",
+        "aurait pris",
+        "aura prises",
+        "aurais pris",
+        "aurai pris",
+        "aurais prise",
+        "aura pris",
+        "auras pris",
+        "aurai prises",
+        "prennes",
+        "aurai prise",
+        "aurait prise"
+      ],
+      "answer": "prenne",
+      "masked_sentence": "Il est probable que je _ un café avant de partir."
+    },
+    {
+      "case": "In indirect speech to report a statement or thought.",
+      "language": "German",
+      "pronoun": "ich (I)",
+      "sentence": "Er sagt, ich hätte viel Geld.",
+      "tense": "Könjunktiv Präsens",
+      "verb": "haben",
+      "answer_suggestions": [
+        "hätte gehabt",
+        "hättest",
+        "habe",
+        "hättest gehabt",
+        "hätten"
+      ],
+      "answer": "hätte",
+      "masked_sentence": "Er sagt, ich _ viel Geld."
+    },
+    {
+      "case": "In indirect speech to report a statement or thought.",
+      "language": "German",
+      "pronoun": "ich (I)",
+      "sentence": "Er behauptet, ich hätte ihn angerufen.",
+      "tense": "Könjunktiv Präsens",
+      "verb": "haben",
+      "answer_suggestions": [
+        "hättest",
+        "habe",
+        "hätte gehabt",
+        "hättest gehabt",
+        "hätten"
+      ],
+      "answer": "hätte",
+      "masked_sentence": "Er behauptet, ich _ ihn angerufen."
+    },
+    {
+      "case": "In indirect speech to report a statement or thought.",
+      "language": "German",
+      "pronoun": "ich (I)",
+      "sentence": "Er sagt, ich bräuchte mehr Geld.",
+      "tense": "Könjunktiv Präsens",
+      "verb": "brauchen",
+      "answer_suggestions": [
+        "brächtest",
+        "brächtet",
+        "brauchte",
+        "hättest gebraucht haben",
+        "hättest gebraucht",
+        "hätte gebraucht haben",
+        "hätte gebraucht",
+        "bräuchtest"
+      ],
+      "answer": "bräuchte",
+      "masked_sentence": "Er sagt, ich _ mehr Geld."
+    },
+    {
+      "case": "In indirect speech to report a statement or thought.",
+      "language": "German",
+      "pronoun": "ich (I)",
+      "sentence": "Sie meint, ich bräuchte Urlaub.",
+      "tense": "Könjunktiv Präsens",
+      "verb": "brauchen",
+      "answer_suggestions": [
+        "brächtest",
+        "hättest gebraucht",
+        "hätte gebraucht haben",
+        "hätte gebraucht",
+        "hättest gebraucht haben",
+        "bräuchtest",
+        "brächtet",
+        "brauchte"
+      ],
+      "answer": "bräuchte",
+      "masked_sentence": "Sie meint, ich _ Urlaub."
+    },
+    {
+      "case": "In indirect speech to report a statement or thought.",
+      "language": "German",
+      "pronoun": "ich (I)",
+      "sentence": "Er denkt, ich bräuchte Hilfe.",
+      "tense": "Könjunktiv Präsens",
+      "verb": "brauchen",
+      "answer_suggestions": [
+        "brächtest",
+        "hättest gebraucht haben",
+        "bräuchtest",
+        "hätte gebraucht",
+        "hätte gebraucht haben",
+        "brauchte",
+        "brächtet",
+        "hättest gebraucht"
+      ],
+      "answer": "bräuchte",
+      "masked_sentence": "Er denkt, ich _ Hilfe."
+    },
+    {
+      "case": "In indirect speech to report a statement or thought.",
+      "language": "German",
+      "pronoun": "ich (I)",
+      "sentence": "Sie meint, ich denke, ich sei ein guter Sänger.",
+      "tense": "Könjunktiv Präsens",
+      "verb": "denken",
+      "answer_suggestions": [
+        "hätte gedacht",
+        "hätte gedacht haben sollen",
+        "hättest gedacht",
+        "dächtest",
+        "hätte gedacht haben",
+        "dächten",
+        "dächte",
+        "hättest nicht gedacht"
+      ],
+      "answer": "denke",
+      "masked_sentence": "Sie meint, ich _, ich sei ein guter Sänger."
+    },
+    {
+      "case": "In indirect speech to report a statement or thought.",
+      "language": "German",
+      "pronoun": "ich (I)",
+      "sentence": "Sie denkt, ich hätte recht.",
+      "tense": "Könjunktiv Präsens",
+      "verb": "haben",
+      "answer_suggestions": [
+        "habe",
+        "hättest",
+        "hättest gehabt",
+        "hätten",
+        "hätte gehabt"
+      ],
+      "answer": "hätte",
+      "masked_sentence": "Sie denkt, ich _ recht."
+    }
+  ]
+}

@@ -5,23 +5,11 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group"
 import { Label } from "@/components/ui/label"
 import { Button } from "@/components/ui/button"
-import { questions } from "./questions"
+import questions from "./language_exercises.json"
 
 interface LanguageSelectorProps {
   onSelectLanguage: (language: string) => void
 }
-
-// const languages = [
-//   { code: "es", name: "Español" },
-//   { code: "fr", name: "Français" },
-//   { code: "de", name: "Deutsch" },
-// ]
-
-// const languages = [
-//   { code: "es", name: "Spanish" },
-//   { code: "fr", name: "French" },
-//   { code: "de", name: "Germany" }
-// ]
 
 export function LanguageSelector({ onSelectLanguage }: LanguageSelectorProps) {
   const [selectedLanguage, setSelectedLanguage] = useState("")
@@ -33,9 +21,7 @@ export function LanguageSelector({ onSelectLanguage }: LanguageSelectorProps) {
   }
 
   const getLanguages = () => {
-    const langs = [...new Set(questions.exercises.map(x => x.language))];
-    console.log("langs = ", langs);
-    return langs;
+    return [...new Set(questions.exercises.map(x => x.language))];
   }
 
   return (

@@ -185,7 +185,7 @@
 import { useState } from "react"
 import { LanguageSelector } from "./language-selector"
 import { LanguageExerciseQuiz } from "./language-exercise-quiz"
-import { questions } from "./questions"
+import questions from "./language_exercises.json"
 
 export default function Page() {
   const [selectedLanguage, setSelectedLanguage] = useState<string | null>(null)
@@ -194,22 +194,8 @@ export default function Page() {
     setSelectedLanguage(language)
   }
 
-  // const getQuestions = (selectedLanguage: string) => {
-  //   console.log('called!')
-  //   return questions[selectedLanguage as keyof typeof questions] || [];
-  // }
-
   const getQuestions = (selectedLanguage: string) => {
-    //selectedLanguage = "Spanish";
-    //console.log(getQuestions(selectedLanguage));
-
-    console.log('selected language = ', selectedLanguage);
-
-    const filtered = questions.exercises.filter(q => q.language === selectedLanguage) || [];
-
-    console.log("filtered questions = ", filtered);
-
-    return filtered;
+    return questions.exercises.filter(q => q.language === selectedLanguage) || [];
   }
 
   return (

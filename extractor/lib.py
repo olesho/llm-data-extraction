@@ -284,3 +284,14 @@ def ListOfObjects(
     if isinstance(input_variables, list):
         p = Prompt(prompt)
         return p.for_each(input_variables).get_list(model, output_example_variables, exclude_fields_from_output)
+    
+
+def Transform(
+    prompt: str,
+    model: BaseLLM,
+    input_variables: object,
+    output_example_variables: dict,
+):
+    if isinstance(input_variables, list):
+        p = Prompt(prompt)
+        return p.for_each(input_variables).get_single(model, output_example_variables)

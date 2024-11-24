@@ -1,4 +1,4 @@
-import questions from "./language_exercises_v2.json"
+import questions from "./language_exercises_v5.json"
 
 export const getQuiz = () => {
     return questions;

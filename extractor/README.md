@@ -1,5 +1,4 @@
-# llm-data-extraction
-Extract Structured Data from LLMs
+# Extractor
 
 ## Usage
 
@@ -10,10 +9,4 @@ conda activate my_env
 pip install -r requirements.txt
 python extract_language_exercises.py
 cp ../language_exercises.json ../ui/src/app/language_exercises.json
-```
-
-## Serving
-```bash
-cd ../ui
-npm run dev
 ```

@@ -5,7 +5,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group"
 import { Label } from "@/components/ui/label"
 import { Button } from "@/components/ui/button"
-import questions from "./language_exercises.json"
+import { getQuiz } from "./questions"
 
 interface LanguageSelectorProps {
   onSelectLanguage: (language: string) => void
@@ -21,7 +21,7 @@ export function LanguageSelector({ onSelectLanguage }: LanguageSelectorProps) {
   }
 
   const getLanguages = () => {
-    return [...new Set(questions.exercises.map(x => x.language))];
+    return [...new Set(getQuiz().exercises.map(x => x.language))];
   }
 
   return (

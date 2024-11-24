@@ -7,6 +7,7 @@ import { Label } from "@/components/ui/label"
 import { Button } from "@/components/ui/button"
 import { Progress } from "@/components/ui/progress"
 import { CheckCircle, XCircle, Timer } from 'lucide-react'
+import { shuffleArray } from "./questions"
 
 interface Question {
   case: string
@@ -33,8 +34,15 @@ export function LanguageExerciseQuiz({ questions, language }: LanguageExerciseQu
   const [score, setScore] = useState(0)
   const [quizCompleted, setQuizCompleted] = useState(false)
   const [timeLeft, setTimeLeft] = useState(QUESTION_TIME_LIMIT)
+  const [shuffled, setShuffled] = useState(false)
 
   const currentQuestion = questions[currentQuestionIndex]
+
+  if (!shuffled) {
+    currentQuestion.answer_suggestions = shuffleArray([...new Set([...shuffleArray(currentQuestion.answer_suggestions).slice(0, 3), currentQuestion.answer])]);
+    setShuffled(true);
+  }
+
   const isLastQuestion = currentQuestionIndex === questions.length - 1
   const progress = ((currentQuestionIndex + 1) / questions.length) * 100
 
@@ -62,6 +70,7 @@ export function LanguageExerciseQuiz({ questions, language }: LanguageExerciseQu
   }
 
   const handleNextQuestion = () => {
+    setShuffled(false);
     if (isLastQuestion) {
       setQuizCompleted(true)
     } else {

@@ -19,7 +19,7 @@ def extract_language_exercises(model, learning_languages: list[str], native_spea
     for language in learning_language_list:
         # extract verbs
         verb_list = ListOfObjects(
-            """Generate list of 20 most used verbs of {language}. Do not provide translation.""",
+            """Generate list of 30 most used verbs of {language}. Do not provide translation.""",
             model,
             language,
             {"verb": "..."}
@@ -109,8 +109,15 @@ def extract_language_exercises(model, learning_languages: list[str], native_spea
 
             # Add the correct variation to answer suggestions
             enriched_list[i]["answer_suggestions"].append(enriched_list[i]["correct_verb_form"])
+
+            # eliminate duplicates
+            enriched_list[i]["answer_suggestions"] = list(dict.fromkeys(enriched_list[i]["answer_suggestions"]))
             
             enriched_list[i]["answer"] = enriched_list[i]["correct_verb_form"]
+
+            enriched_list[i]["masked_sentence"] = enriched_list[i]["sentence"].replace(enriched_list[i]["correct_verb_form"], '_')
+
+
             del enriched_list[i]["correct_verb_form"]
         
         all.extend(enriched_list)
@@ -123,7 +130,8 @@ if __name__ == "__main__":
         "Spanish", 
         "Portuguese",
         "French",
-        "German"], ["English"], limit_output=3)
+        "German",
+        ], ["English"], limit_output=10)
     
     output_data = {
         "title": "Language Tenses",

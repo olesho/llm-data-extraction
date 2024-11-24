@@ -1,0 +1,1145 @@
+{
+  "title": "Language Tenses",
+  "exercises": [
+    {
+      "case": "To describe an action that is happening at the moment of speaking.",
+      "language": "Spanish",
+      "pronoun": "Yo",
+      "sentence": "Puedo hablar español con fluidez.",
+      "tense": "Presente",
+      "verb": "poder",
+      "answer_suggestions": [
+        "pueda",
+        "hubiera podido",
+        "puedan",
+        "Puedo"
+      ],
+      "answer": "Puedo",
+      "masked_sentence": "_ hablar español con fluidez."
+    },
+    {
+      "case": "To describe an action that is happening at the moment of speaking.",
+      "language": "Spanish",
+      "pronoun": "Yo",
+      "sentence": "Puedo ayudarte en este momento.",
+      "tense": "Presente",
+      "verb": "poder",
+      "answer_suggestions": [
+        "pude",
+        "podéis",
+        "pueda",
+        "Puedo"
+      ],
+      "answer": "Puedo",
+      "masked_sentence": "_ ayudarte en este momento."
+    },
+    {
+      "case": "To describe an action that is happening at the moment of speaking.",
+      "language": "Spanish",
+      "pronoun": "Yo",
+      "sentence": "Puedo resolver este problema ahora mismo.",
+      "tense": "Presente",
+      "verb": "poder",
+      "answer_suggestions": [
+        "pudieron",
+        "podía",
+        "hubiera podido",
+        "Puedo"
+      ],
+      "answer": "Puedo",
+      "masked_sentence": "_ resolver este problema ahora mismo."
+    },
+    {
+      "case": "To describe an action that is happening at the moment of speaking.",
+      "language": "Spanish",
+      "pronoun": "Yo",
+      "sentence": "Yo necesito un lápiz para hacer este ejercicio.",
+      "tense": "Presente",
+      "verb": "necesitar",
+      "answer_suggestions": [
+        "habrás necesitado",
+        "necesitarían",
+        "hubieran necesitado",
+        "necesito"
+      ],
+      "answer": "necesito",
+      "masked_sentence": "Yo _ un lápiz para hacer este ejercicio."
+    },
+    {
+      "case": "To describe an action that is happening at the moment of speaking.",
+      "language": "Spanish",
+      "pronoun": "Yo",
+      "sentence": "Yo necesito ayuda para resolver este problema.",
+      "tense": "Presente",
+      "verb": "necesitar",
+      "answer_suggestions": [
+        "necesitan",
+        "necesitarán",
+        "necesitaron",
+        "necesito"
+      ],
+      "answer": "necesito",
+      "masked_sentence": "Yo _ ayuda para resolver este problema."
+    },
+    {
+      "case": "To describe an action that is happening at the moment of speaking.",
+      "language": "Spanish",
+      "pronoun": "Yo",
+      "sentence": "Yo necesito un descanso, estoy cansado.",
+      "tense": "Presente",
+      "verb": "necesitar",
+      "answer_suggestions": [
+        "necesitasteis",
+        "hubiese necesitado",
+        "necesitaron",
+        "necesito"
+      ],
+      "answer": "necesito",
+      "masked_sentence": "Yo _ un descanso, estoy cansado."
+    },
+    {
+      "case": "To describe an action that is happening at the moment of speaking.",
+      "language": "Spanish",
+      "pronoun": "Yo",
+      "sentence": "Yo llevo un libro en mi mochila.",
+      "tense": "Presente",
+      "verb": "llevar",
+      "answer_suggestions": [
+        "había llevado",
+        "habrías llevado",
+        "habré llevado",
+        "llevo"
+      ],
+      "answer": "llevo",
+      "masked_sentence": "Yo _ un libro en mi mochila."
+    },
+    {
+      "case": "To describe an action that is happening at the moment of speaking.",
+      "language": "Spanish",
+      "pronoun": "Yo",
+      "sentence": "Yo llevo puesto un abrigo porque hace frío.",
+      "tense": "Presente",
+      "verb": "llevar",
+      "answer_suggestions": [
+        "habría llevado",
+        "lleva",
+        "llevé",
+        "llevo"
+      ],
+      "answer": "llevo",
+      "masked_sentence": "Yo _ puesto un abrigo porque hace frío."
+    },
+    {
+      "case": "To describe an action that is happening at the moment of speaking.",
+      "language": "Spanish",
+      "pronoun": "Yo",
+      "sentence": "Yo llevo una hora estudiando para el examen.",
+      "tense": "Presente",
+      "verb": "llevar",
+      "answer_suggestions": [
+        "has llevado",
+        "habríais llevado",
+        "habría llevado",
+        "llevo"
+      ],
+      "answer": "llevo",
+      "masked_sentence": "Yo _ una hora estudiando para el examen."
+    },
+    {
+      "case": "To describe an action that is happening at the moment of speaking.",
+      "language": "Spanish",
+      "pronoun": "Yo",
+      "sentence": "Yo trabajo en una empresa de tecnología.",
+      "tense": "Presente",
+      "verb": "trabajar",
+      "answer_suggestions": [
+        "habrían estado trabajando",
+        "trabajarás",
+        "trabaje",
+        "trabajo"
+      ],
+      "answer": "trabajo",
+      "masked_sentence": "Yo _ en una empresa de tecnología."
+    },
+    {
+      "case": "To describe an action that is happening at the moment of speaking.",
+      "language": "Spanish",
+      "pronoun": "Yo",
+      "sentence": "Yo trabajo como freelance desde hace un año.",
+      "tense": "Presente",
+      "verb": "trabajar",
+      "answer_suggestions": [
+        "trabajaba",
+        "trabajen",
+        "trabajemos",
+        "trabajo"
+      ],
+      "answer": "trabajo",
+      "masked_sentence": "Yo _ como freelance desde hace un año."
+    },
+    {
+      "case": "To describe an action that is happening at the moment of speaking.",
+      "language": "Spanish",
+      "pronoun": "Yo",
+      "sentence": "Yo encuentro una solución para este problema difícil.",
+      "tense": "Presente",
+      "verb": "encontrar",
+      "answer_suggestions": [
+        "habían encontrado",
+        "encontrarán",
+        "habrá encontrado",
+        "encuentro"
+      ],
+      "answer": "encuentro",
+      "masked_sentence": "Yo _ una solución para este problema difícil."
+    },
+    {
+      "case": "To describe an action that is happening at the moment of speaking.",
+      "language": "Spanish",
+      "pronoun": "Yo",
+      "sentence": "Yo creo que es una buena idea.",
+      "tense": "Presente",
+      "verb": "creer",
+      "answer_suggestions": [
+        "creen",
+        "habíamos creído",
+        "creía",
+        "creo"
+      ],
+      "answer": "creo",
+      "masked_sentence": "Yo _ que es una buena idea."
+    },
+    {
+      "case": "To describe an action that is happening at the moment of speaking.",
+      "language": "Spanish",
+      "pronoun": "Yo",
+      "sentence": "Yo creo que él está mintiendo.",
+      "tense": "Presente",
+      "verb": "creer",
+      "answer_suggestions": [
+        "habrán creído",
+        "habrían creído",
+        "habría creído",
+        "creo"
+      ],
+      "answer": "creo",
+      "masked_sentence": "Yo _ que él está mintiendo."
+    },
+    {
+      "case": "To describe an action that is happening at the moment of speaking.",
+      "language": "Spanish",
+      "pronoun": "Yo",
+      "sentence": "Yo creo que voy a aprobar el examen.",
+      "tense": "Presente",
+      "verb": "creer",
+      "answer_suggestions": [
+        "creerías",
+        "creeremos",
+        "creyeran",
+        "creo"
+      ],
+      "answer": "creo",
+      "masked_sentence": "Yo _ que voy a aprobar el examen."
+    },
+    {
+      "case": "To describe an action that is happening at the moment of speaking.",
+      "language": "Spanish",
+      "pronoun": "Yo",
+      "sentence": "Yo pienso que es una buena idea.",
+      "tense": "Presente",
+      "verb": "pensar",
+      "answer_suggestions": [
+        "hubiese pensado",
+        "habrías pensado",
+        "hubisteis pensado",
+        "pienso"
+      ],
+      "answer": "pienso",
+      "masked_sentence": "Yo _ que es una buena idea."
+    },
+    {
+      "case": "To describe an action that is happening at the moment of speaking.",
+      "language": "Spanish",
+      "pronoun": "Yo",
+      "sentence": "Yo pienso que necesito ayuda.",
+      "tense": "Presente",
+      "verb": "pensar",
+      "answer_suggestions": [
+        "piense",
+        "pensaría",
+        "pienso"
+      ],
+      "answer": "pienso",
+      "masked_sentence": "Yo _ que necesito ayuda."
+    },
+    {
+      "case": "To describe an action that is happening at the moment of speaking.",
+      "language": "Spanish",
+      "pronoun": "Yo",
+      "sentence": "Yo hablo con mi amigo por teléfono.",
+      "tense": "Presente",
+      "verb": "hablar",
+      "answer_suggestions": [
+        "habría hablado",
+        "hubiera hablado",
+        "han hablado",
+        "hablo"
+      ],
+      "answer": "hablo",
+      "masked_sentence": "Yo _ con mi amigo por teléfono."
+    },
+    {
+      "case": "To describe an action that is happening at the moment of speaking.",
+      "language": "Spanish",
+      "pronoun": "Yo",
+      "sentence": "Yo hablo sobre este tema en la clase de español.",
+      "tense": "Presente",
+      "verb": "hablar",
+      "answer_suggestions": [
+        "hablaríais",
+        "habla",
+        "ha hablado",
+        "hablo"
+      ],
+      "answer": "hablo",
+      "masked_sentence": "Yo _ sobre este tema en la clase de español."
+    },
+    {
+      "case": "To describe an action that is happening at the moment of speaking.",
+      "language": "Spanish",
+      "pronoun": "Yo",
+      "sentence": "Yo hablo con mi familia sobre nuestros planes para el fin de semana.",
+      "tense": "Presente",
+      "verb": "hablar",
+      "answer_suggestions": [
+        "hablaremos",
+        "hablásteis",
+        "habló",
+        "hablo"
+      ],
+      "answer": "hablo",
+      "masked_sentence": "Yo _ con mi familia sobre nuestros planes para el fin de semana."
+    },
+    {
+      "case": "To describe an action that is happening at the moment of speaking.",
+      "language": "Spanish",
+      "pronoun": "Yo",
+      "sentence": "Yo vivo en Madrid en este momento.",
+      "tense": "Presente",
+      "verb": "vivir",
+      "answer_suggestions": [
+        "hubieran vivido",
+        "habrán vivido",
+        "habéis vivido",
+        "vivo"
+      ],
+      "answer": "vivo",
+      "masked_sentence": "Yo _ en Madrid en este momento."
+    },
+    {
+      "case": "To describe an action that is happening at the moment of speaking.",
+      "language": "Spanish",
+      "pronoun": "Yo",
+      "sentence": "Yo vivo con mis padres ahora mismo.",
+      "tense": "Presente",
+      "verb": "vivir",
+      "answer_suggestions": [
+        "habréis vivido",
+        "viviremos",
+        "habrá estado viviendo",
+        "vivo"
+      ],
+      "answer": "vivo",
+      "masked_sentence": "Yo _ con mis padres ahora mismo."
+    },
+    {
+      "case": "To describe an action that is happening at the moment of speaking.",
+      "language": "Spanish",
+      "pronoun": "Yo",
+      "sentence": "Yo vivo en un apartamento pequeño en el centro de la ciudad.",
+      "tense": "Presente",
+      "verb": "vivir",
+      "answer_suggestions": [
+        "vivamos",
+        "habrá vivido",
+        "vivo"
+      ],
+      "answer": "vivo",
+      "masked_sentence": "Yo _ en un apartamento pequeño en el centro de la ciudad."
+    },
+    {
+      "case": "To describe an action that is happening at the moment of speaking.",
+      "language": "Spanish",
+      "pronoun": "Yo",
+      "sentence": "Yo siento la música en este momento.",
+      "tense": "Presente",
+      "verb": "sentir",
+      "answer_suggestions": [
+        "habíamos sentido",
+        "habrán sentido",
+        "habrá sentido",
+        "siento"
+      ],
+      "answer": "siento",
+      "masked_sentence": "Yo _ la música en este momento."
+    },
+    {
+      "case": "To describe an action that is happening at the moment of speaking.",
+      "language": "Spanish",
+      "pronoun": "Yo",
+      "sentence": "Yo siento un dolor en mi cabeza.",
+      "tense": "Presente",
+      "verb": "sentir",
+      "answer_suggestions": [
+        "habría sentido",
+        "sentisteis",
+        "sientan",
+        "siento"
+      ],
+      "answer": "siento",
+      "masked_sentence": "Yo _ un dolor en mi cabeza."
+    },
+    {
+      "case": "To describe an action that is happening at the moment of speaking.",
+      "language": "Spanish",
+      "pronoun": "Yo",
+      "sentence": "Yo siento que algo está mal.",
+      "tense": "Presente",
+      "verb": "sentir",
+      "answer_suggestions": [
+        "sentían",
+        "habremos sentido",
+        "habría sentido",
+        "siento"
+      ],
+      "answer": "siento",
+      "masked_sentence": "Yo _ que algo está mal."
+    },
+    {
+      "case": "To describe an action that is happening at the moment of speaking.",
+      "language": "Portuguese",
+      "pronoun": "eu",
+      "sentence": "Eu preciso de ajuda agora.",
+      "tense": "Presente",
+      "verb": "precisar",
+      "answer_suggestions": [
+        "houvera precisado",
+        "terá precisado",
+        "havíeis precisado",
+        "preciso"
+      ],
+      "answer": "preciso",
+      "masked_sentence": "Eu _ de ajuda agora."
+    },
+    {
+      "case": "To describe an action that is happening at the moment of speaking.",
+      "language": "Portuguese",
+      "pronoun": "eu",
+      "sentence": "Eu preciso estudar para o exame.",
+      "tense": "Presente",
+      "verb": "precisar",
+      "answer_suggestions": [
+        "precisaríeis",
+        "precisasses",
+        "precisavam",
+        "preciso"
+      ],
+      "answer": "preciso",
+      "masked_sentence": "Eu _ estudar para o exame."
+    },
+    {
+      "case": "To describe an action that is happening at the moment of speaking.",
+      "language": "Portuguese",
+      "pronoun": "eu",
+      "sentence": "Eu preciso ir ao banheiro.",
+      "tense": "Presente",
+      "verb": "precisar",
+      "answer_suggestions": [
+        "precisas",
+        "precisastes",
+        "precisasse",
+        "preciso"
+      ],
+      "answer": "preciso",
+      "masked_sentence": "Eu _ ir ao banheiro."
+    },
+    {
+      "case": "To describe an action that is happening at the moment of speaking.",
+      "language": "Portuguese",
+      "pronoun": "eu",
+      "sentence": "Eu gosto de música.",
+      "tense": "Presente",
+      "verb": "gostar",
+      "answer_suggestions": [
+        "gostaria",
+        "gostariam",
+        "tiveres gostado",
+        "gosto"
+      ],
+      "answer": "gosto",
+      "masked_sentence": "Eu _ de música."
+    },
+    {
+      "case": "To describe an action that is happening at the moment of speaking.",
+      "language": "Portuguese",
+      "pronoun": "eu",
+      "sentence": "Eu gosto de ler livros agora.",
+      "tense": "Presente",
+      "verb": "gostar",
+      "answer_suggestions": [
+        "gostaria",
+        "gostará",
+        "gostam",
+        "gosto"
+      ],
+      "answer": "gosto",
+      "masked_sentence": "Eu _ de ler livros agora."
+    },
+    {
+      "case": "To describe an action that is happening at the moment of speaking.",
+      "language": "Portuguese",
+      "pronoun": "eu",
+      "sentence": "Eu gosto de assistir TV agora.",
+      "tense": "Presente",
+      "verb": "gostar",
+      "answer_suggestions": [
+        "haviam gostado",
+        "gostavam",
+        "teréis gostado",
+        "gosto"
+      ],
+      "answer": "gosto",
+      "masked_sentence": "Eu _ de assistir TV agora."
+    },
+    {
+      "case": "To describe an action that is happening at the moment of speaking.",
+      "language": "Portuguese",
+      "pronoun": "eu",
+      "sentence": "Eu trabalho atualmente em uma empresa de tecnologia.",
+      "tense": "Presente",
+      "verb": "trabalhar",
+      "answer_suggestions": [
+        "trabalharíeis",
+        "trabalhara",
+        "havia trabalhado",
+        "trabalho"
+      ],
+      "answer": "trabalho",
+      "masked_sentence": "Eu _ atualmente em uma empresa de tecnologia."
+    },
+    {
+      "case": "To describe an action that is happening at the moment of speaking.",
+      "language": "Portuguese",
+      "pronoun": "eu",
+      "sentence": "Eu trabalho como freelancer há alguns meses.",
+      "tense": "Presente",
+      "verb": "trabalhar",
+      "answer_suggestions": [
+        "íamos trabalhar",
+        "trabalháveis",
+        "trabalhareis",
+        "trabalho"
+      ],
+      "answer": "trabalho",
+      "masked_sentence": "Eu _ como freelancer há alguns meses."
+    },
+    {
+      "case": "To describe an action that is happening at the moment of speaking.",
+      "language": "Portuguese",
+      "pronoun": "eu",
+      "sentence": "Eu vivo em Lisboa.",
+      "tense": "Presente",
+      "verb": "viver",
+      "answer_suggestions": [
+        "ias viver",
+        "haviam vivido",
+        "vive",
+        "vivo"
+      ],
+      "answer": "vivo",
+      "masked_sentence": "Eu _ em Lisboa."
+    },
+    {
+      "case": "To describe an action that is happening at the moment of speaking.",
+      "language": "Portuguese",
+      "pronoun": "eu",
+      "sentence": "Eu vivo sozinho.",
+      "tense": "Presente",
+      "verb": "viver",
+      "answer_suggestions": [
+        "vive",
+        "vivesse",
+        "viveriam",
+        "vivo"
+      ],
+      "answer": "vivo",
+      "masked_sentence": "Eu _ sozinho."
+    },
+    {
+      "case": "To describe an action that is happening at the moment of speaking.",
+      "language": "Portuguese",
+      "pronoun": "eu",
+      "sentence": "Eu vivo com meus pais.",
+      "tense": "Presente",
+      "verb": "viver",
+      "answer_suggestions": [
+        "teria vivido",
+        "haviam vivido",
+        "teríeis vivido",
+        "vivo"
+      ],
+      "answer": "vivo",
+      "masked_sentence": "Eu _ com meus pais."
+    },
+    {
+      "case": "To describe an action that is happening at the moment of speaking.",
+      "language": "Portuguese",
+      "pronoun": "eu",
+      "sentence": "Eu aprendo novas coisas todos os dias.",
+      "tense": "Presente",
+      "verb": "aprender",
+      "answer_suggestions": [
+        "aprendes",
+        "aprendemos",
+        "aprendestes",
+        "aprendo"
+      ],
+      "answer": "aprendo",
+      "masked_sentence": "Eu _ novas coisas todos os dias."
+    },
+    {
+      "case": "To describe an action that is happening at the moment of speaking.",
+      "language": "Portuguese",
+      "pronoun": "eu",
+      "sentence": "Eu encontro uma solução para este desafio.",
+      "tense": "Presente",
+      "verb": "encontrar",
+      "answer_suggestions": [
+        "encontram",
+        "houvera encontrado",
+        "encontrará",
+        "encontro"
+      ],
+      "answer": "encontro",
+      "masked_sentence": "Eu _ uma solução para este desafio."
+    },
+    {
+      "case": "To describe an action that is happening at the moment of speaking.",
+      "language": "Portuguese",
+      "pronoun": "eu",
+      "sentence": "Eu começo a ler o livro agora.",
+      "tense": "Presente",
+      "verb": "começar",
+      "answer_suggestions": [
+        "teria começado",
+        "teríamos começado",
+        "começaria",
+        "começo"
+      ],
+      "answer": "começo",
+      "masked_sentence": "Eu _ a ler o livro agora."
+    },
+    {
+      "case": "To describe an action that is happening at the moment of speaking.",
+      "language": "Portuguese",
+      "pronoun": "eu",
+      "sentence": "Eu começo a trabalhar às 9 horas.",
+      "tense": "Presente",
+      "verb": "começar",
+      "answer_suggestions": [
+        "começarias",
+        "começávamos",
+        "começaremos",
+        "começo"
+      ],
+      "answer": "começo",
+      "masked_sentence": "Eu _ a trabalhar às 9 horas."
+    },
+    {
+      "case": "To describe an action that is happening at the moment of speaking.",
+      "language": "Portuguese",
+      "pronoun": "eu",
+      "sentence": "Eu começo a estudar para o exame agora.",
+      "tense": "Presente",
+      "verb": "começar",
+      "answer_suggestions": [
+        "começaram",
+        "começaremos",
+        "teria começado",
+        "começo"
+      ],
+      "answer": "começo",
+      "masked_sentence": "Eu _ a estudar para o exame agora."
+    },
+    {
+      "case": "To describe an action that is happening at the moment of speaking.",
+      "language": "Portuguese",
+      "pronoun": "eu",
+      "sentence": "Eu continuo a estudar para o exame.",
+      "tense": "Presente",
+      "verb": "continuar",
+      "answer_suggestions": [
+        "continuava",
+        "continuaste",
+        "continuarão",
+        "continuo"
+      ],
+      "answer": "continuo",
+      "masked_sentence": "Eu _ a estudar para o exame."
+    },
+    {
+      "case": "To describe an action that is happening at the moment of speaking.",
+      "language": "Portuguese",
+      "pronoun": "eu",
+      "sentence": "Eu continuo a trabalhar no meu projeto.",
+      "tense": "Presente",
+      "verb": "continuar",
+      "answer_suggestions": [
+        "continuas",
+        "continuaste",
+        "continuará",
+        "continuo"
+      ],
+      "answer": "continuo",
+      "masked_sentence": "Eu _ a trabalhar no meu projeto."
+    },
+    {
+      "case": "To describe an action that is happening at the moment of speaking.",
+      "language": "Portuguese",
+      "pronoun": "eu",
+      "sentence": "Eu continuo a ler este livro interessante.",
+      "tense": "Presente",
+      "verb": "continuar",
+      "answer_suggestions": [
+        "continuava",
+        "continuará",
+        "continuo"
+      ],
+      "answer": "continuo",
+      "masked_sentence": "Eu _ a ler este livro interessante."
+    },
+    {
+      "case": "To describe an action that is happening at the moment of speaking.",
+      "language": "Portuguese",
+      "pronoun": "eu",
+      "sentence": "Eu paro de trabalhar agora.",
+      "tense": "Presente",
+      "verb": "parar",
+      "answer_suggestions": [
+        "paras",
+        "paro"
+      ],
+      "answer": "paro",
+      "masked_sentence": "Eu _ de trabalhar agora."
+    },
+    {
+      "case": "To describe an action that is happening at the moment of speaking.",
+      "language": "Portuguese",
+      "pronoun": "eu",
+      "sentence": "Eu paro de fumar desde hoje.",
+      "tense": "Presente",
+      "verb": "parar",
+      "answer_suggestions": [
+        "pára",
+        "tinha parado",
+        "paras",
+        "paro"
+      ],
+      "answer": "paro",
+      "masked_sentence": "Eu _ de fumar desde hoje."
+    },
+    {
+      "case": "To describe an action that is happening at the moment of speaking.",
+      "language": "Portuguese",
+      "pronoun": "eu",
+      "sentence": "Eu paro de estudar para descansar um pouco.",
+      "tense": "Presente",
+      "verb": "parar",
+      "answer_suggestions": [
+        "parava",
+        "paras",
+        "pararás",
+        "paro"
+      ],
+      "answer": "paro",
+      "masked_sentence": "Eu _ de estudar para descansar um pouco."
+    },
+    {
+      "case": "To describe an action that is happening now",
+      "language": "French",
+      "pronoun": "je",
+      "sentence": "Je finis mes devoirs.",
+      "tense": "Présent",
+      "verb": "finir",
+      "answer_suggestions": [
+        "finit",
+        "finira",
+        "finissais",
+        "finis"
+      ],
+      "answer": "finis",
+      "masked_sentence": "Je _ mes devoirs."
+    },
+    {
+      "case": "To describe an action that is happening now",
+      "language": "French",
+      "pronoun": "je",
+      "sentence": "Je finis mon projet de recherche.",
+      "tense": "Présent",
+      "verb": "finir",
+      "answer_suggestions": [
+        "finissait",
+        "aura fini",
+        "finirai",
+        "finis"
+      ],
+      "answer": "finis",
+      "masked_sentence": "Je _ mon projet de recherche."
+    },
+    {
+      "case": "To describe an action that is happening now",
+      "language": "French",
+      "pronoun": "je",
+      "sentence": "Je finis de manger.",
+      "tense": "Présent",
+      "verb": "finir",
+      "answer_suggestions": [
+        "finis",
+        "finit",
+        "finissais"
+      ],
+      "answer": "finis",
+      "masked_sentence": "Je _ de manger."
+    },
+    {
+      "case": "To describe an action that is happening now",
+      "language": "French",
+      "pronoun": "je",
+      "sentence": "Je commence à étudier pour mon examen.",
+      "tense": "Présent",
+      "verb": "commencer",
+      "answer_suggestions": [
+        "eus commencé",
+        "fusses commencé",
+        "aurez commencé",
+        "commence"
+      ],
+      "answer": "commence",
+      "masked_sentence": "Je _ à étudier pour mon examen."
+    },
+    {
+      "case": "To describe an action that is happening now",
+      "language": "French",
+      "pronoun": "je",
+      "sentence": "Je commence à cuisiner pour le dîner.",
+      "tense": "Présent",
+      "verb": "commencer",
+      "answer_suggestions": [
+        "commences",
+        "commence",
+        "eurent commencé"
+      ],
+      "answer": "commence",
+      "masked_sentence": "Je _ à cuisiner pour le dîner."
+    },
+    {
+      "case": "To describe an action that is happening now",
+      "language": "French",
+      "pronoun": "je",
+      "sentence": "Je commence à lire ce livre intéressant.",
+      "tense": "Présent",
+      "verb": "commencer",
+      "answer_suggestions": [
+        "commencent",
+        "commencions",
+        "eûtes commencé",
+        "commence"
+      ],
+      "answer": "commence",
+      "masked_sentence": "Je _ à lire ce livre intéressant."
+    },
+    {
+      "case": "To describe an action that is happening now",
+      "language": "French",
+      "pronoun": "je",
+      "sentence": "Je continue à étudier pour mon examen.",
+      "tense": "Présent",
+      "verb": "continuer",
+      "answer_suggestions": [
+        "continuerai",
+        "continue",
+        "auras continué"
+      ],
+      "answer": "continue",
+      "masked_sentence": "Je _ à étudier pour mon examen."
+    },
+    {
+      "case": "To describe an action that is happening now",
+      "language": "French",
+      "pronoun": "je",
+      "sentence": "Je continue de travailler sur ce projet.",
+      "tense": "Présent",
+      "verb": "continuer",
+      "answer_suggestions": [
+        "aurai continué",
+        "continueras",
+        "continuerai",
+        "continue"
+      ],
+      "answer": "continue",
+      "masked_sentence": "Je _ de travailler sur ce projet."
+    },
+    {
+      "case": "To describe an action that is happening now",
+      "language": "French",
+      "pronoun": "je",
+      "sentence": "Je continue à lire ce livre intéressant.",
+      "tense": "Présent",
+      "verb": "continuer",
+      "answer_suggestions": [
+        "continuais",
+        "continuerai",
+        "continuait",
+        "continue"
+      ],
+      "answer": "continue",
+      "masked_sentence": "Je _ à lire ce livre intéressant."
+    },
+    {
+      "case": "To describe an action that is happening now",
+      "language": "French",
+      "pronoun": "je",
+      "sentence": "J'attends mon ami au parc.",
+      "tense": "Présent",
+      "verb": "attendre",
+      "answer_suggestions": [
+        "aurai attendus",
+        "attend",
+        "attendais",
+        "attends"
+      ],
+      "answer": "attends",
+      "masked_sentence": "J'_ mon ami au parc."
+    },
+    {
+      "case": "To describe an action that is happening now",
+      "language": "French",
+      "pronoun": "je",
+      "sentence": "Je attends la réponse du médecin.",
+      "tense": "Présent",
+      "verb": "attendre",
+      "answer_suggestions": [
+        "attendais",
+        "auras attendu",
+        "attend",
+        "attends"
+      ],
+      "answer": "attends",
+      "masked_sentence": "Je _ la réponse du médecin."
+    },
+    {
+      "case": "To describe an action that is happening now",
+      "language": "French",
+      "pronoun": "je",
+      "sentence": "J'attends que le bus arrive.",
+      "tense": "Présent",
+      "verb": "attendre",
+      "answer_suggestions": [
+        "auras attendu",
+        "aura attendu",
+        "attends"
+      ],
+      "answer": "attends",
+      "masked_sentence": "J'_ que le bus arrive."
+    },
+    {
+      "case": "To describe an action that is happening at the moment of speaking.",
+      "language": "German",
+      "pronoun": "ich (I)",
+      "sentence": "Ich schreibe gerade einen Brief.",
+      "tense": "Präsens",
+      "verb": "schreiben",
+      "answer_suggestions": [
+        "schrieb",
+        "schreibt",
+        "schreibe"
+      ],
+      "answer": "schreibe",
+      "masked_sentence": "Ich _ gerade einen Brief."
+    },
+    {
+      "case": "To describe an action that is happening at the moment of speaking.",
+      "language": "German",
+      "pronoun": "ich (I)",
+      "sentence": "Ich schreibe meine Hausaufgaben.",
+      "tense": "Präsens",
+      "verb": "schreiben",
+      "answer_suggestions": [
+        "hatte geschrieben",
+        "schriebst",
+        "hast geschrieben",
+        "schreibe"
+      ],
+      "answer": "schreibe",
+      "masked_sentence": "Ich _ meine Hausaufgaben."
+    },
+    {
+      "case": "To describe an action that is happening at the moment of speaking.",
+      "language": "German",
+      "pronoun": "ich (I)",
+      "sentence": "Ich schreibe gerade einen Artikel für die Schülerzeitung.",
+      "tense": "Präsens",
+      "verb": "schreiben",
+      "answer_suggestions": [
+        "schreibe",
+        "hatte geschrieben",
+        "schreibt"
+      ],
+      "answer": "schreibe",
+      "masked_sentence": "Ich _ gerade einen Artikel für die Schülerzeitung."
+    },
+    {
+      "case": "To describe an action that is happening at the moment of speaking.",
+      "language": "German",
+      "pronoun": "ich (I)",
+      "sentence": "Ich spreche gerade mit meinem Freund.",
+      "tense": "Präsens",
+      "verb": "sprechen",
+      "answer_suggestions": [
+        "hat gesprochen",
+        "hatte gesprochen",
+        "ist gesprochen worden",
+        "spreche"
+      ],
+      "answer": "spreche",
+      "masked_sentence": "Ich _ gerade mit meinem Freund."
+    },
+    {
+      "case": "To describe an action that is happening at the moment of speaking.",
+      "language": "German",
+      "pronoun": "ich (I)",
+      "sentence": "Ich spreche vor der Klasse.",
+      "tense": "Präsens",
+      "verb": "sprechen",
+      "answer_suggestions": [
+        "hatte gesprochen",
+        "hat gesprochen",
+        "sprach",
+        "spreche"
+      ],
+      "answer": "spreche",
+      "masked_sentence": "Ich _ vor der Klasse."
+    },
+    {
+      "case": "To describe an action that is happening at the moment of speaking.",
+      "language": "German",
+      "pronoun": "ich (I)",
+      "sentence": "Ich spreche mit meiner Schwester über das Wochenende.",
+      "tense": "Präsens",
+      "verb": "sprechen",
+      "answer_suggestions": [
+        "hatte gesprochen",
+        "ist gesprochen worden",
+        "hat gesprochen",
+        "spreche"
+      ],
+      "answer": "spreche",
+      "masked_sentence": "Ich _ mit meiner Schwester über das Wochenende."
+    },
+    {
+      "case": "To describe an action that is happening at the moment of speaking.",
+      "language": "German",
+      "pronoun": "ich (I)",
+      "sentence": "Ich denke gerade über mein nächstes Projekt nach.",
+      "tense": "Präsens",
+      "verb": "denken",
+      "answer_suggestions": [
+        "hatte gedacht haben müssen",
+        "hatte nicht gedacht haben müssen",
+        "denkt",
+        "denke"
+      ],
+      "answer": "denke",
+      "masked_sentence": "Ich _ gerade über mein nächstes Projekt nach."
+    },
+    {
+      "case": "To describe an action that is happening at the moment of speaking.",
+      "language": "German",
+      "pronoun": "ich (I)",
+      "sentence": "Ich denke, dass ich mich bald entscheiden muss.",
+      "tense": "Präsens",
+      "verb": "denken",
+      "answer_suggestions": [
+        "hätte gedacht haben können",
+        "ist gedacht",
+        "ist gedacht worden",
+        "denke"
+      ],
+      "answer": "denke",
+      "masked_sentence": "Ich _, dass ich mich bald entscheiden muss."
+    },
+    {
+      "case": "To describe an action that is happening at the moment of speaking.",
+      "language": "German",
+      "pronoun": "ich (I)",
+      "sentence": "Ich denke, dass ich den Film gerne sehen würde.",
+      "tense": "Präsens",
+      "verb": "denken",
+      "answer_suggestions": [
+        "werden gedacht haben",
+        "habe gedacht",
+        "wird gedacht haben",
+        "denke"
+      ],
+      "answer": "denke",
+      "masked_sentence": "Ich _, dass ich den Film gerne sehen würde."
+    },
+    {
+      "case": "To describe an action that is happening at the moment of speaking.",
+      "language": "German",
+      "pronoun": "ich (I)",
+      "sentence": "Ich fühle mich gerade sehr glücklich.",
+      "tense": "Präsens",
+      "verb": "fühlen",
+      "answer_suggestions": [
+        "fühle mich nicht",
+        "hatte gefühlt haben",
+        "hätte gefühlt haben wollen",
+        "fühle"
+      ],
+      "answer": "fühle",
+      "masked_sentence": "Ich _ mich gerade sehr glücklich."
+    },
+    {
+      "case": "To describe an action that is happening at the moment of speaking.",
+      "language": "German",
+      "pronoun": "ich (I)",
+      "sentence": "Ich fühle mich krank, weil ich gestern zu viel gegessen habe.",
+      "tense": "Präsens",
+      "verb": "fühlen",
+      "answer_suggestions": [
+        "fühlt",
+        "hast sich gefühlt",
+        "fühle"
+      ],
+      "answer": "fühle",
+      "masked_sentence": "Ich _ mich krank, weil ich gestern zu viel gegessen habe."
+    },
+    {
+      "case": "To describe an action that is happening at the moment of speaking.",
+      "language": "German",
+      "pronoun": "ich (I)",
+      "sentence": "Ich fühle mich müde, weil ich die ganze Nacht nicht geschlafen habe.",
+      "tense": "Präsens",
+      "verb": "fühlen",
+      "answer_suggestions": [
+        "fühlst",
+        "fühle mich",
+        "hast gefühlt",
+        "fühle"
+      ],
+      "answer": "fühle",
+      "masked_sentence": "Ich _ mich müde, weil ich die ganze Nacht nicht geschlafen habe."
+    }
+  ]
+}

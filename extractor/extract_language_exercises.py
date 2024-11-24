@@ -11,7 +11,13 @@ def filter_by_field(k, v, combos):
 def serialize_keys(k, combos):
     return [combo[k] for combo in combos]
 
-def extract_language_exercises(model, learning_languages: list[str], native_speaker_languages: list[str], limit_output = 0):
+def extract_language_exercises(
+        model, 
+        learning_languages: list[str], 
+        native_speaker_languages: list[str], 
+        limit_output = 0,
+        do_shuffle = False):
+    
     learning_language_list = [ {"language": language} for language in learning_languages     ]
     #native_speaker_language_list = [ {"language": language} for language in native_speaker_languages ]
 
@@ -24,6 +30,9 @@ def extract_language_exercises(model, learning_languages: list[str], native_spea
             language,
             {"verb": "..."}
         )
+
+        if do_shuffle:
+            random.shuffle(verb_list)
 
         if (limit_output > 0) and (len(verb_list) > limit_output):
             verb_list = verb_list[len(verb_list)-limit_output:]
@@ -42,6 +51,9 @@ def extract_language_exercises(model, learning_languages: list[str], native_spea
             language, 
             {"tense": "..."})
         
+        if do_shuffle:
+            random.shuffle(language_tenses)
+        
         if (limit_output > 0) and (len(language_tenses) > limit_output):
             language_tenses = language_tenses[:limit_output]
         
@@ -51,6 +63,9 @@ def extract_language_exercises(model, learning_languages: list[str], native_spea
             model, 
             language_tenses, 
             {"case": "..."})
+        
+        if do_shuffle:
+            random.shuffle(language_tense_cases)
         
         if limit_output > 0 and len(language_tense_cases) > limit_output:
             language_tense_cases = language_tense_cases[:limit_output]
@@ -87,6 +102,9 @@ def extract_language_exercises(model, learning_languages: list[str], native_spea
             final_list, 
             {"correct_verb_form": "..."})
         
+        if do_shuffle:
+            random.shuffle(enriched_list)
+        
         # enrich with fake answers:
         verb_tense_combos = Multiply(verb_list, language_tenses)
         verb_tense_combos = Multiply(verb_tense_combos, pronouns)
@@ -100,19 +118,25 @@ def extract_language_exercises(model, learning_languages: list[str], native_spea
         
         verb_tense_list = [item for item in verb_tense_list if '(' not in item['verb_variation'] and ')' not in item['verb_variation']]
 
-
-        for i in range(len(final_list)):
+        for i in range(len(enriched_list)):
             fake_answers = filter_by_field("verb", enriched_list[i]["verb"], verb_tense_list)
+
+            fake_answers = [ans for ans in fake_answers if ans['verb_variation'] != enriched_list[i]["correct_verb_form"]]
             random.shuffle(fake_answers)
-            fake_answers = fake_answers[:3]
+
+            #fake_answers = fake_answers[:3]
             enriched_list[i]["answer_suggestions"] = serialize_keys("verb_variation", fake_answers)
 
             # Add the correct variation to answer suggestions
-            enriched_list[i]["answer_suggestions"].append(enriched_list[i]["correct_verb_form"])
+            #enriched_list[i]["answer_suggestions"].append(enriched_list[i]["correct_verb_form"])
+
+            # TODO: this is shuffling and fixating list
+            # although this can be
+            #random.shuffle(enriched_list[i]["answer_suggestions"])
 
             # eliminate duplicates
             enriched_list[i]["answer_suggestions"] = list(dict.fromkeys(enriched_list[i]["answer_suggestions"]))
-            
+
             enriched_list[i]["answer"] = enriched_list[i]["correct_verb_form"]
 
             enriched_list[i]["masked_sentence"] = enriched_list[i]["sentence"].replace(enriched_list[i]["correct_verb_form"], '_')
@@ -122,7 +146,9 @@ def extract_language_exercises(model, learning_languages: list[str], native_spea
         
         all.extend(enriched_list)
 
-    return all
+        filtered_exercises = [exercise for exercise in all if not exercise['masked_sentence'] == exercise['sentence']]
+
+    return filtered_exercises
 
 if __name__ == "__main__":
     model = get_model(model_provider='groq', model='llama3-70b-8192')
@@ -131,7 +157,9 @@ if __name__ == "__main__":
         "Portuguese",
         "French",
         "German",
-        ], ["English"], limit_output=10)
+        ], ["English"], limit_output=3, do_shuffle=True)
+        #], ["English"], limit_output=10, do_shuffle=True)
+        #], ["English"], limit_output=4, do_shuffle=True)
     
     output_data = {
         "title": "Language Tenses",

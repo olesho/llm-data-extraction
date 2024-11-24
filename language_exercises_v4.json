@@ -1,0 +1,133 @@
+{
+  "title": "Language Tenses",
+  "exercises": [
+    {
+      "case": "To express a possibility or probability in the past.",
+      "language": "Spanish",
+      "pronoun": "Yo",
+      "sentence": "Yo creería que había estado allí antes.",
+      "tense": "Condicional",
+      "verb": "creer",
+      "answer_suggestions": [
+        "hubiese creído",
+        "hubiera creído",
+        "creías",
+        "hubiere creído",
+        "creyese",
+        "creerías",
+        "hayas creído",
+        "creía",
+        "creyeras",
+        "creyera",
+        "creíes",
+        "no creía",
+        "haya creído"
+      ],
+      "answer": "creería",
+      "masked_sentence": "Yo _ que había estado allí antes."
+    },
+    {
+      "case": "To express a possibility or probability in the past.",
+      "language": "Spanish",
+      "pronoun": "Yo",
+      "sentence": "Yo tendría dinero si hubiera ahorrado más.",
+      "tense": "Condicional",
+      "verb": "tener",
+      "answer_suggestions": [
+        "tuvieses",
+        "hubiera tenido",
+        "tuviera",
+        "hayas podido tener",
+        "hayas sabido tener",
+        "hayas querido tener",
+        "tenías",
+        "hubiese tenido",
+        "tendrías",
+        "haya tenido",
+        "hayas debido tener",
+        "hayas tenido",
+        "tenía",
+        "tuviese"
+      ],
+      "answer": "tendría",
+      "masked_sentence": "Yo _ dinero si hubiera ahorrado más."
+    },
+    {
+      "case": "To express a possibility or probability in the past.",
+      "language": "Spanish",
+      "pronoun": "Yo",
+      "sentence": "Yo tendría un título universitario si hubiera estudiado más.",
+      "tense": "Condicional",
+      "verb": "tener",
+      "answer_suggestions": [
+        "hubiese tenido",
+        "tuviera",
+        "tuviese",
+        "tuvieses",
+        "hayas tenido",
+        "haya tenido",
+        "hayas sabido tener",
+        "tendrías",
+        "hayas querido tener",
+        "tenías",
+        "hayas podido tener",
+        "hubiera tenido",
+        "tenía",
+        "hayas debido tener"
+      ],
+      "answer": "tendría",
+      "masked_sentence": "Yo _ un título universitario si hubiera estudiado más."
+    },
+    {
+      "case": "To express a possibility or probability in the past.",
+      "language": "Spanish",
+      "pronoun": "Yo",
+      "sentence": "Yo tendría una casa propia si hubiera invertido en bienes raíces.",
+      "tense": "Condicional",
+      "verb": "tener",
+      "answer_suggestions": [
+        "hubiese tenido",
+        "hayas sabido tener",
+        "tuviera",
+        "hayas debido tener",
+        "haya tenido",
+        "hayas tenido",
+        "tenía",
+        "tendrías",
+        "hayas podido tener",
+        "hubiera tenido",
+        "tenías",
+        "tuviese",
+        "tuvieses",
+        "hayas querido tener"
+      ],
+      "answer": "tendría",
+      "masked_sentence": "Yo _ una casa propia si hubiera invertido en bienes raíces."
+    },
+    {
+      "case": "To express a possibility or probability in the past.",
+      "language": "Spanish",
+      "pronoun": "Yo",
+      "sentence": "Yo creería que había sido un error si lo hubiera sabido antes.",
+      "tense": "Condicional",
+      "verb": "creer",
+      "answer_suggestions": [
+        "creyeras",
+        "creía",
+        "hubiere creído",
+        "hubiera creído",
+        "creyese",
+        "creerías",
+        "creyera",
+        "hubiese creído",
+        "creíes",
+        "creías",
+        "haya creído",
+        "no creía",
+        "hayas creído"
+      ],
+      "answer": "creería",
+      "masked_sentence": "Yo _ que había sido un error si lo hubiera sabido antes."
+    }
+  ]
+}
